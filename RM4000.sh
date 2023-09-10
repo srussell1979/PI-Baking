@@ -6,8 +6,9 @@ echo " "
 echo " "
 # Clone SKU_RM0004 library
 echo "----------------------------------------------------------------"
-echo "Commence SKU_RM0004 Library
-git clone https://github.com/UCTRONICS/SKU_RM0004.git"
+echo "Commence SKU_RM0004 Library"
+echo "----------------------------------------------------------------"
+git clone https://github.com/UCTRONICS/SKU_RM0004.git
 echo "----------------------------------------------------------------"
 echo " "
 echo " "
