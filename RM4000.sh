@@ -30,10 +30,10 @@ echo " "
 echo " "
 echo "----------------------------------------------------------------"
 # Add Automatic Start Script
-echo cd /home/pi/SKU_RM0004
-echo make clean 
-echo make 
-echo ./display &
+echo cd /home/pi/SKU_RM0004 >> /etc/rc.local
+echo make clean >> /etc/rc.local
+echo make >> /etc/rc.local
+echo ./display & >> /etc/rc.local
 echo "----------------------------------------------------------------"
 echo " "
 echo " "
