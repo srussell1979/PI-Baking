@@ -30,10 +30,14 @@ echo " "
 echo " "
 echo "----------------------------------------------------------------"
 # Add Automatic Start Script
+echo "----------------------------------------------------------------"
+sed -i 's/0/ /g' /etc/rc.local
+sed -i 's/exit //g' /etc/rc.local
 echo cd /home/pi/SKU_RM0004 >> /etc/rc.local
 echo make clean >> /etc/rc.local
 echo make >> /etc/rc.local
 echo ./display & >> /etc/rc.local
+echo "exit 0" >> /etc/rc.local
 echo "----------------------------------------------------------------"
 echo " "
 echo " "
