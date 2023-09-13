@@ -37,7 +37,6 @@ echo "Commence Docker Setup"
 echo "----------------------------------------------------------------"
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
-sudo usermod -aG docker pi
 echo "----------------------------------------------------------------"
 echo "Docker Setup Completed"
 echo "----------------------------------------------------------------"
